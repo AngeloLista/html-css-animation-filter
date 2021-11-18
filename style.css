@@ -32,12 +32,18 @@
     border-radius: 50%;
 }
 
-
+/* Quarto quadrato */
 .ex-4-square {
     width: 100px;
     height: 100px;
     background: red;
+    transition: 2s;
 }
+.ex-4-square:hover {
+    opacity: 0;
+}
+
+/* Quinto quadrato */
 .ex-5-square {
     margin: 20px;
     width: 60px;
